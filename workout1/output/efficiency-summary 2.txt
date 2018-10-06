@@ -1,0 +1,375 @@
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+-0.6667  2.7692  4.7143  5.6588  7.7089 21.1852 
+# A tibble: 477 x 43
+# Groups:   team [30]
+   player number team  position height weight birth_date country experience college salary  rank   age
+   <chr>  <chr>  <chr> <fct>    <chr>   <int> <chr>      <chr>        <int> <chr>    <dbl> <int> <int>
+ 1 Al Ho… 42     BOS   center   6-10      245 June 3, 1… do               9 Univer…  26.5      4    30
+ 2 Amir … 90     BOS   power_f… 6-9       240 May 1, 19… us              11 ""       12        6    29
+ 3 Avery… 0      BOS   shoot_g… 6-2       180 November … us               6 Univer…   8.27     5    26
+ 4 Demet… 9      BOS   point_g… 6-1       201 September… us               0 Univer…   1.45    15    22
+ 5 Geral… 30     BOS   samll_f… 6-7       205 January 2… us               9 ""        1.41    11    31
+ 6 Isaia… 4      BOS   point_g… 5-9       185 February … us               5 Univer…   6.59     1    27
+ 7 Jae C… 99     BOS   samll_f… 6-6       235 July 6, 1… us               4 Marque…   6.29     3    26
+ 8 James… 13     BOS   shoot_g… 6-6       215 August 16… us               2 Univer…   1.83    13    21
+ 9 Jayle… 7      BOS   samll_f… 6-7       225 October 2… us               0 Univer…   4.74     8    20
+10 Jonas… 8      BOS   power_f… 6-10      231 March 2, … se               6 ""        5       10    29
+# ... with 467 more rows, and 30 more variables: games <int>, games_started <int>, minutes <int>,
+#   field_goals <int>, field_goals_atts <int>, field_goals_perc <dbl>, points3 <int>, points3_atts <int>,
+#   points3_perc <dbl>, points2 <int>, points2_atts <int>, points2_perc <dbl>,
+#   effective_field_goal_perc <dbl>, points1 <int>, points1_atts <int>, points1_perc <dbl>,
+#   off_rebounds <int>, def_rebounds <int>, total_rebounds <int>, assists <int>, steals <int>,
+#   blocks <int>, turnovers <int>, fouls <int>, points <int>, missed_field_goals <int>,
+#   missed_free_throws <int>, rebounds <int>, total_points <int>, efficiency <dbl>
+# A tibble: 477 x 43
+# Groups:   experience [19]
+   player number team  position height weight birth_date country experience college salary  rank   age
+   <chr>  <chr>  <chr> <fct>    <chr>   <int> <chr>      <chr>        <int> <chr>    <dbl> <int> <int>
+ 1 Al Ho… 42     BOS   center   6-10      245 June 3, 1… do               9 Univer…  26.5      4    30
+ 2 Amir … 90     BOS   power_f… 6-9       240 May 1, 19… us              11 ""       12        6    29
+ 3 Avery… 0      BOS   shoot_g… 6-2       180 November … us               6 Univer…   8.27     5    26
+ 4 Demet… 9      BOS   point_g… 6-1       201 September… us               0 Univer…   1.45    15    22
+ 5 Geral… 30     BOS   samll_f… 6-7       205 January 2… us               9 ""        1.41    11    31
+ 6 Isaia… 4      BOS   point_g… 5-9       185 February … us               5 Univer…   6.59     1    27
+ 7 Jae C… 99     BOS   samll_f… 6-6       235 July 6, 1… us               4 Marque…   6.29     3    26
+ 8 James… 13     BOS   shoot_g… 6-6       215 August 16… us               2 Univer…   1.83    13    21
+ 9 Jayle… 7      BOS   samll_f… 6-7       225 October 2… us               0 Univer…   4.74     8    20
+10 Jonas… 8      BOS   power_f… 6-10      231 March 2, … se               6 ""        5       10    29
+# ... with 467 more rows, and 30 more variables: games <int>, games_started <int>, minutes <int>,
+#   field_goals <int>, field_goals_atts <int>, field_goals_perc <dbl>, points3 <int>, points3_atts <int>,
+#   points3_perc <dbl>, points2 <int>, points2_atts <int>, points2_perc <dbl>,
+#   effective_field_goal_perc <dbl>, points1 <int>, points1_atts <int>, points1_perc <dbl>,
+#   off_rebounds <int>, def_rebounds <int>, total_rebounds <int>, assists <int>, steals <int>,
+#   blocks <int>, turnovers <int>, fouls <int>, points <int>, missed_field_goals <int>,
+#   missed_free_throws <int>, rebounds <int>, total_points <int>, efficiency <dbl>
+# A tibble: 477 x 43
+# Groups:   experience [19]
+   player number team  position height weight birth_date country experience college salary  rank   age
+   <chr>  <chr>  <chr> <fct>    <chr>   <int> <chr>      <chr>        <int> <chr>    <dbl> <int> <int>
+ 1 Al Ho… 42     BOS   center   6-10      245 June 3, 1… do               9 Univer…  26.5      4    30
+ 2 Amir … 90     BOS   power_f… 6-9       240 May 1, 19… us              11 ""       12        6    29
+ 3 Avery… 0      BOS   shoot_g… 6-2       180 November … us               6 Univer…   8.27     5    26
+ 4 Demet… 9      BOS   point_g… 6-1       201 September… us               0 Univer…   1.45    15    22
+ 5 Geral… 30     BOS   samll_f… 6-7       205 January 2… us               9 ""        1.41    11    31
+ 6 Isaia… 4      BOS   point_g… 5-9       185 February … us               5 Univer…   6.59     1    27
+ 7 Jae C… 99     BOS   samll_f… 6-6       235 July 6, 1… us               4 Marque…   6.29     3    26
+ 8 James… 13     BOS   shoot_g… 6-6       215 August 16… us               2 Univer…   1.83    13    21
+ 9 Jayle… 7      BOS   samll_f… 6-7       225 October 2… us               0 Univer…   4.74     8    20
+10 Jonas… 8      BOS   power_f… 6-10      231 March 2, … se               6 ""        5       10    29
+# ... with 467 more rows, and 30 more variables: games <int>, games_started <int>, minutes <int>,
+#   field_goals <int>, field_goals_atts <int>, field_goals_perc <dbl>, points3 <int>, points3_atts <int>,
+#   points3_perc <dbl>, points2 <int>, points2_atts <int>, points2_perc <dbl>,
+#   effective_field_goal_perc <dbl>, points1 <int>, points1_atts <int>, points1_perc <dbl>,
+#   off_rebounds <int>, def_rebounds <int>, total_rebounds <int>, assists <int>, steals <int>,
+#   blocks <int>, turnovers <int>, fouls <int>, points <int>, missed_field_goals <int>,
+#   missed_free_throws <int>, rebounds <int>, total_points <int>, efficiency <dbl>
+# A tibble: 477 x 43
+# Groups:   team [30]
+   player number team  position height weight birth_date country experience college salary  rank   age
+   <chr>  <chr>  <chr> <fct>    <chr>   <int> <chr>      <chr>        <int> <chr>    <dbl> <int> <int>
+ 1 Al Ho… 42     BOS   center   6-10      245 June 3, 1… do               9 Univer…  26.5      4    30
+ 2 Amir … 90     BOS   power_f… 6-9       240 May 1, 19… us              11 ""       12        6    29
+ 3 Avery… 0      BOS   shoot_g… 6-2       180 November … us               6 Univer…   8.27     5    26
+ 4 Demet… 9      BOS   point_g… 6-1       201 September… us               0 Univer…   1.45    15    22
+ 5 Geral… 30     BOS   samll_f… 6-7       205 January 2… us               9 ""        1.41    11    31
+ 6 Isaia… 4      BOS   point_g… 5-9       185 February … us               5 Univer…   6.59     1    27
+ 7 Jae C… 99     BOS   samll_f… 6-6       235 July 6, 1… us               4 Marque…   6.29     3    26
+ 8 James… 13     BOS   shoot_g… 6-6       215 August 16… us               2 Univer…   1.83    13    21
+ 9 Jayle… 7      BOS   samll_f… 6-7       225 October 2… us               0 Univer…   4.74     8    20
+10 Jonas… 8      BOS   power_f… 6-10      231 March 2, … se               6 ""        5       10    29
+# ... with 467 more rows, and 30 more variables: games <int>, games_started <int>, minutes <int>,
+#   field_goals <int>, field_goals_atts <int>, field_goals_perc <dbl>, points3 <int>, points3_atts <int>,
+#   points3_perc <dbl>, points2 <int>, points2_atts <int>, points2_perc <dbl>,
+#   effective_field_goal_perc <dbl>, points1 <int>, points1_atts <int>, points1_perc <dbl>,
+#   off_rebounds <int>, def_rebounds <int>, total_rebounds <int>, assists <int>, steals <int>,
+#   blocks <int>, turnovers <int>, fouls <int>, points <int>, missed_field_goals <int>,
+#   missed_free_throws <int>, rebounds <int>, total_points <int>, efficiency <dbl>
+# A tibble: 30 x 2
+   team  exp_sum
+   <chr>   <int>
+ 1 ATL       100
+ 2 BOS        63
+ 3 BRK        70
+ 4 CHI        59
+ 5 CHO        63
+ 6 CLE       145
+ 7 DAL        65
+ 8 DEN        83
+ 9 DET        55
+10 GSW       113
+# ... with 20 more rows
+# A tibble: 477 x 1
+# Groups:   team [30]
+   team 
+   <chr>
+ 1 BOS  
+ 2 BOS  
+ 3 BOS  
+ 4 BOS  
+ 5 BOS  
+ 6 BOS  
+ 7 BOS  
+ 8 BOS  
+ 9 BOS  
+10 BOS  
+# ... with 467 more rows
+# A tibble: 30 x 2
+   team  total_salary
+   <chr>        <dbl>
+ 1 ATL           93.4
+ 2 BOS           91.9
+ 3 BRK           76.2
+ 4 CHI           92.5
+ 5 CHO           88.5
+ 6 CLE          127. 
+ 7 DAL           92.8
+ 8 DEN           79.0
+ 9 DET          103. 
+10 GSW          100. 
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_points3
+   <chr>       <int>
+ 1 ATL           660
+ 2 BOS           985
+ 3 BRK           777
+ 4 CHI           565
+ 5 CHO           808
+ 6 CLE          1030
+ 7 DAL           712
+ 8 DEN           868
+ 9 DET           631
+10 GSW           982
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_points2
+   <chr>       <int>
+ 1 ATL          2337
+ 2 BOS          2183
+ 3 BRK          2040
+ 4 CHI          2162
+ 5 CHO          2089
+ 6 CLE          2148
+ 7 DAL          1754
+ 8 DEN          2351
+ 9 DET          2638
+10 GSW          2545
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_points1
+   <chr>       <int>
+ 1 ATL          1453
+ 2 BOS          1536
+ 3 BRK          1444
+ 4 CHI          1330
+ 5 CHO          1497
+ 6 CLE          1384
+ 7 DAL          1007
+ 8 DEN          1477
+ 9 DET          1140
+10 GSW          1455
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_off_reb
+   <chr>       <int>
+ 1 ATL           832
+ 2 BOS           744
+ 3 BRK           689
+ 4 CHI           865
+ 5 CHO           621
+ 6 CLE           735
+ 7 DAL           521
+ 8 DEN           872
+ 9 DET           908
+10 GSW           770
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_def_reb
+   <chr>       <int>
+ 1 ATL          2676
+ 2 BOS          2698
+ 3 BRK          2697
+ 4 CHI          2419
+ 5 CHO          2615
+ 6 CLE          2673
+ 7 DAL          2063
+ 8 DEN          2660
+ 9 DET          2838
+10 GSW          2869
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_assists
+   <chr>       <int>
+ 1 ATL          1846
+ 2 BOS          2069
+ 3 BRK          1664
+ 4 CHI          1746
+ 5 CHO          1806
+ 6 CLE          1779
+ 7 DAL          1183
+ 8 DEN          2015
+ 9 DET          1732
+10 GSW          2486
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_steals
+   <chr>      <int>
+ 1 ATL          645
+ 2 BOS          617
+ 3 BRK          568
+ 4 CHI          605
+ 5 CHO          543
+ 6 CLE          483
+ 7 DAL          507
+ 8 DEN          543
+ 9 DET          574
+10 GSW          782
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_blocts
+   <chr>      <int>
+ 1 ATL          381
+ 2 BOS          340
+ 3 BRK          382
+ 4 CHI          339
+ 5 CHO          316
+ 6 CLE          304
+ 7 DAL          257
+ 8 DEN          286
+ 9 DET          310
+10 GSW          554
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_turnovers
+   <chr>         <int>
+ 1 ATL            1201
+ 2 BOS            1037
+ 3 BRK            1212
+ 4 CHI             956
+ 5 CHO             820
+ 6 CLE            1020
+ 7 DAL             674
+ 8 DEN            1102
+ 9 DET             932
+10 GSW            1179
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_fouls
+   <chr>     <int>
+ 1 ATL        1432
+ 2 BOS        1686
+ 3 BRK        1620
+ 4 CHI        1275
+ 5 CHO        1177
+ 6 CLE        1356
+ 7 DAL        1229
+ 8 DEN        1475
+ 9 DET        1467
+10 GSW        1581
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_eff
+   <chr>   <dbl>
+ 1 ATL      88.3
+ 2 BOS      87.0
+ 3 BRK      97.5
+ 4 CHI      82.4
+ 5 CHO      84.8
+ 6 CLE     105. 
+ 7 DAL      83.8
+ 8 DEN     104. 
+ 9 DET      78.4
+10 GSW     111. 
+# ... with 20 more rows
+# A tibble: 30 x 2
+   team  tot_eff
+   <chr>   <dbl>
+ 1 ATL      88.3
+ 2 BOS      87.0
+ 3 BRK      97.5
+ 4 CHI      82.4
+ 5 CHO      84.8
+ 6 CLE     105. 
+ 7 DAL      83.8
+ 8 DEN     104. 
+ 9 DET      78.4
+10 GSW     111. 
+# ... with 20 more rows
+# A tibble: 30 x 13
+   team  exp_sum total_salary total_points3 total_points2 total_points1 total_off_reb total_def_reb total_assists total_blocks total_turnovers total_fouls total_efficiency
+   <chr>   <int>        <dbl>         <int>         <int>         <int>         <int>         <int>         <int>        <int>           <int>       <int>            <dbl>
+ 1 ATL       100         93.4           660          2337          1453           832          2676          1846          381            1201        1432             88.3
+ 2 BOS        63         91.9           985          2183          1536           744          2698          2069          340            1037        1686             87.0
+ 3 BRK        70         76.2           777          2040          1444           689          2697          1664          382            1212        1620             97.5
+ 4 CHI        59         92.5           565          2162          1330           865          2419          1746          339             956        1275             82.4
+ 5 CHO        63         88.5           808          2089          1497           621          2615          1806          316             820        1177             84.8
+ 6 CLE       145        127.           1030          2148          1384           735          2673          1779          304            1020        1356            105. 
+ 7 DAL        65         92.8           712          1754          1007           521          2063          1183          257             674        1229             83.8
+ 8 DEN        83         79.0           868          2351          1477           872          2660          2015          286            1102        1475            104. 
+ 9 DET        55        103.            631          2638          1140           908          2838          1732          310             932        1467             78.4
+10 GSW       113        100.            982          2545          1455           770          2869          2486          554            1179        1581            111. 
+# ... with 20 more rows
+[1] "/Users/maiahjohnson/stat133/workout1/output"
+function (name, pos = -1L, envir = as.environment(pos), all.names = FALSE, 
+    pattern, sorted = TRUE) 
+{
+    if (!missing(name)) {
+        pos <- tryCatch(name, error = function(e) e)
+        if (inherits(pos, "error")) {
+            name <- substitute(name)
+            if (!is.character(name)) 
+                name <- deparse(name)
+            warning(gettextf("%s converted to character string", 
+                sQuote(name)), domain = NA)
+            pos <- name
+        }
+    }
+    all.names <- .Internal(ls(envir, all.names, sorted))
+    if (!missing(pattern)) {
+        if ((ll <- length(grep("[", pattern, fixed = TRUE))) && 
+            ll != length(grep("]", pattern, fixed = TRUE))) {
+            if (pattern == "[") {
+                pattern <- "\\["
+                warning("replaced regular expression pattern '[' by  '\\\\['")
+            }
+            else if (length(grep("[^\\\\]\\[<-", pattern))) {
+                pattern <- sub("\\[<-", "\\\\\\[<-", pattern)
+                warning("replaced '[<-' by '\\\\[<-' in regular expression pattern")
+            }
+        }
+        grep(pattern, all.names, value = TRUE)
+    }
+    else all.names
+}
+<bytecode: 0x10236fd58>
+<environment: namespace:base>
+# A tibble: 30 x 13
+   team  exp_sum total_salary total_points3 total_points2 total_points1 total_off_reb
+   <chr>   <int>        <dbl>         <int>         <int>         <int>         <int>
+ 1 CLE       145         127.          1030          2148          1384           735
+ 2 LAC       124         115.           841          2401          1586           738
+ 3 MEM        90         109.           757          2176          1489           880
+ 4 TOR        57         108.           626          2359          1570           847
+ 5 SAS        99         105.           753          2469          1440           821
+ 6 MIL        83         105.           720          2462          1413           723
+ 7 ORL        62         104.           618          2178          1232           707
+ 8 DET        55         103.           631          2638          1140           908
+ 9 POR        43         102.           847          2148          1386           706
+10 WAS        57         101.           718          2526          1368           806
+# ... with 20 more rows, and 6 more variables: total_def_reb <int>, total_assists <int>,
+#   total_blocks <int>, total_turnovers <int>, total_fouls <int>, total_efficiency <dbl>
+# A tibble: 30 x 13
+   team  exp_sum total_salary total_points3 total_points2 total_points1 total_off_reb
+   <chr>   <int>        <dbl>         <int>         <int>         <int>         <int>
+ 1 CLE       145         127.          1030          2148          1384           735
+ 2 LAC       124         115.           841          2401          1586           738
+ 3 MEM        90         109.           757          2176          1489           880
+ 4 TOR        57         108.           626          2359          1570           847
+ 5 SAS        99         105.           753          2469          1440           821
+ 6 MIL        83         105.           720          2462          1413           723
+ 7 ORL        62         104.           618          2178          1232           707
+ 8 DET        55         103.           631          2638          1140           908
+ 9 POR        43         102.           847          2148          1386           706
+10 WAS        57         101.           718          2526          1368           806
+# ... with 20 more rows, and 6 more variables: total_def_reb <int>, total_assists <int>,
+#   total_blocks <int>, total_turnovers <int>, total_fouls <int>, total_efficiency <dbl>

@@ -1,0 +1,21 @@
+     team              exp_sum        total_salary    total_points3    total_points2 
+ Length:30          Min.   : 39.00   Min.   : 56.30   Min.   : 519.0   Min.   :1754  
+ Class :character   1st Qu.: 59.00   1st Qu.: 85.58   1st Qu.: 620.0   1st Qu.:2104  
+ Mode  :character   Median : 67.50   Median : 92.72   Median : 718.0   Median :2290  
+                    Mean   : 74.13   Mean   : 92.29   Mean   : 737.8   Mean   :2263  
+                    3rd Qu.: 83.00   3rd Qu.:102.92   3rd Qu.: 805.8   3rd Qu.:2458  
+                    Max.   :145.00   Max.   :127.25   Max.   :1140.0   Max.   :2638  
+ total_points1  total_off_reb   total_def_reb  total_assists   total_blocks  
+ Min.   : 998   Min.   :521.0   Min.   :1876   Min.   :1183   Min.   :232.0  
+ 1st Qu.:1240   1st Qu.:711.0   1st Qu.:2455   1st Qu.:1551   1st Qu.:318.2  
+ Median :1426   Median :780.0   Median :2600   Median :1753   Median :357.5  
+ Mean   :1375   Mean   :776.9   Mean   :2552   Mean   :1744   Mean   :363.0  
+ 3rd Qu.:1495   3rd Qu.:863.0   3rd Qu.:2692   3rd Qu.:1882   3rd Qu.:392.5  
+ Max.   :1623   Max.   :962.0   Max.   :2869   Max.   :2486   Max.   :554.0  
+ total_turnovers   total_fouls   total_efficiency
+ Min.   : 674.0   Min.   :1168   Min.   : 75.05  
+ 1st Qu.: 972.8   1st Qu.:1444   1st Qu.: 85.41  
+ Median :1029.5   Median :1567   Median : 87.68  
+ Mean   :1025.0   Mean   :1519   Mean   : 89.97  
+ 3rd Qu.:1100.5   3rd Qu.:1620   3rd Qu.: 96.20  
+ Max.   :1212.0   Max.   :1887   Max.   :110.61  
