@@ -20,4 +20,4 @@ block_g + labs(title = "NBA Teams Ranked by Total Blocks", y = "Blocks", x = "Te
 ```
 
 ###Comments and Reflections 
-I found it dfficult to put all of the componenets we've used together on this larger assignment. Given that we needed alot of the knowledge from lab06 to complete this I wish we would hav ebeen exposed to that lab earlier. I am still unsure of how to properly order the bars for the geom_bar function. I tried various formats but still had difficulty. The R script is just a giant code chunk, but before I relized this I was unsure of how to create code within it. 
+I found it dfficult to put all of the componenets we've used together on this larger assignment. Given that we needed alot of the knowledge from lab06 to complete this I wish we would have been exposed to that lab earlier. I am still unsure of how to properly order the bars for the geom_bar function. I tried various formats but still had difficulty. The R script is just a giant code chunk, but before I relized this I was unsure of how to create code within it. 
